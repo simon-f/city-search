@@ -8,6 +8,12 @@ module Features
       @parts = parts
     end
 
+
+    # true if the parts of the feature are connected
+    def is_connected?
+      return true
+    end
+
   end
 
 end
